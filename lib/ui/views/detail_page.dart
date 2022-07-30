@@ -5,9 +5,13 @@ class DetailPage extends StatelessWidget {
   final Services services;
 
   DetailPage({Key? key, required this.services}) : super(key: key);
-   ss
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: FloatingActionButton(
+          child: Text('Action'), onPressed: (){  },
+    ),
+    );
   }
 }

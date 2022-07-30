@@ -92,11 +92,11 @@ class Strings {
   static const String TITLE_VAT_BUY = 'Buy/For Rent/For Lease Land/House/Office';
   static const String TITLE_VAT_SELL = 'Sell/Rent/Lease Land/House/Office';
   static const String TITLE_VAT_VIEW_EDIT_DELETE_PROFILE = 'View/Edit/Delete your created Profile';
-  static const String TITLE_DPSR_ABOUT_US = 'About Us';
-  static const String TITLE_DPSR_CONTACT_US = 'Contact Us';
-  static const String TITLE_DPSR_OUR_SERVICES = 'Our Services';
-  static const String TITLE_DPSR_BE_SPONSER = 'Be a Sponsor';
-  static const String TITLE_DPSR_OUR_SPONSERS = 'Our Sponsors';
+  static const String TITLE_DPSR_OS = 'OS';
+  static const String TITLE_DPSR_DBMS = 'DBMS';
+  static const String TITLE_DPSR_DS = 'DS';
+  static const String TITLE_DPSR_PYTHON= 'PYTHON';
+  static const String TITLE_DPSR_C = 'C';
   static const String TITLE_VID_VIEW_DOWNLOAD_DES = 'View Schools';
   static const String TITLE_VID_VIEW_DOWNLOAD_DIV = 'View Colleges';
   static const String TITLE_FORGOT_PWD_FORGOT_PWD = 'Forgot Password';
@@ -115,6 +115,9 @@ class Strings {
   static const String TITLE_MM_TB_DPSR = 'About Us';
   static const String TITLE_MM_TB_ADMOPR = 'Admin Operations';
   static const String TITLE_MM_TB_HJI = 'ice';
+  static const String TITLE_MM_TB_STUDENT = 'Student';
+  static const String TITLE_MM_TB_COLLEGE = 'College';
+  static const String TITLE_MM_TB_SUBJECT = 'Subject';
   static const String TITLE_SAS_40_SAMSKARAM = 'Genres';
   static const String TITLE_VED_SELECT_CITY = 'Please Select the City';
   static const String TITLE_KAR_JOB_CLASSIFIEDS = 'Job Classifieds';

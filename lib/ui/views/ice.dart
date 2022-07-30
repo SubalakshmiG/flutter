@@ -27,7 +27,7 @@ class IceState extends State<Ice> {
         decoration: new BoxDecoration(
             border: new Border(
                 right: new BorderSide(width: 1.0, color: Colors.white24))),
-        child: Icon(Icons.auto_awesome, color: Colors.white),
+        child: Icon(Icons.access_alarms_sharp, color: Colors.pink),
       ),
       title: Text(
         services.title,
@@ -89,7 +89,7 @@ List getServices() {
   return [
     Services(
       title: Strings.TITLE_VAT_BUY,
-      indicatorValue: 0.33,
+      indicatorValue: 0.93,
     ),
     Services(
       title: Strings.TITLE_VAT_SELL,

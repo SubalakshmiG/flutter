@@ -88,23 +88,23 @@ class AboutUsState extends State<AboutUs> {
 List getServices() {
   return [
     Services(
-      title: Strings.TITLE_DPSR_ABOUT_US,
+      title: Strings.TITLE_DPSR_OS,
       indicatorValue: 0.20,
     ),
     Services(
-      title: Strings.TITLE_DPSR_CONTACT_US,
+      title: Strings.TITLE_DPSR_DBMS,
       indicatorValue: 0.40,
     ),
     Services(
-      title: Strings.TITLE_DPSR_OUR_SERVICES,
+      title: Strings.TITLE_DPSR_DS,
       indicatorValue: 0.60,
     ),
     Services(
-      title: Strings.TITLE_DPSR_BE_SPONSER,
+      title: Strings.TITLE_DPSR_PYTHON,
       indicatorValue: 0.80,
     ),
     Services(
-      title: Strings.TITLE_DPSR_OUR_SPONSERS,
+      title: Strings.TITLE_DPSR_C,
       indicatorValue: 1.0,
     ),
   ];

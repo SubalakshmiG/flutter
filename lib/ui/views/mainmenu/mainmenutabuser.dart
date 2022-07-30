@@ -11,6 +11,9 @@ import 'package:devops_demo/ui/views/knowledge.dart';
 import 'package:devops_demo/ui/views/work.dart';
 import 'package:devops_demo/ui/widgets/showalertdialog.dart';
 
+import '../College.dart';
+import '../Student.dart';
+import '../Subject.dart';
 import '../ice.dart';
 
 class MainMenuTabUser extends StatefulWidget {
@@ -43,7 +46,7 @@ class MainMenuTabUserState extends State<MainMenuTabUser>
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 10,
+      length: 13,
       child: Scaffold(
         appBar: AppBar(
           bottom: TabBar(
@@ -66,6 +69,9 @@ class MainMenuTabUserState extends State<MainMenuTabUser>
                   icon: Icon(Icons.contact_support),
                   child: Text(Strings.TITLE_MM_TB_DPSR)),
               Tab(icon: Icon(Icons.ac_unit), child: Text(Strings.TITLE_MM_TB_HJI)),
+              Tab(icon: Icon(Icons.account_box), child: Text(Strings.TITLE_MM_TB_STUDENT)),
+              Tab(icon: Icon(Icons.account_balance_outlined), child: Text(Strings.TITLE_MM_TB_COLLEGE)),
+              Tab(icon: Icon(Icons.account_balance_wallet_sharp), child: Text(Strings.TITLE_MM_TB_SUBJECT)),
             ],
           ),
           title: Center(
@@ -100,6 +106,10 @@ class MainMenuTabUserState extends State<MainMenuTabUser>
             Charity(),
             AboutUs(),
             Ice(),
+            Student(),
+            College(),
+            Subject(),
+
           ],
         ),
       ),
